@@ -1,0 +1,31 @@
+Historia del lenguaje C
+
+Lo que sé:
+Lenguaje compilado y fuertemente tipado, que fue desarrollado después de otros lenguajes como A y B.
+La mayoría de los lenguajes de programación actuales están basados en C.
+Se usa para el desarrollo de sistemas operativos, el kernel de GNU/Linux está escrito en lenguaje C.
+Los creadores fueron Denis Richie y Brian Kernighan.
+
+¿Qué?
+Lenguaje de propósito general. No depende del hardware, por lo que se puede emplear en distintos sistemas operativos. Orientado a uso en sistemas operativos UNIX.
+Desarrollado entre 1962 y 1972.
+
+¿Quién?
+Denis Richie y Brian Kernighan
+
+¿Cómo?
+Desarrollado como evolución de A y B, para generar un sistema operativo estable
+
+¿Dónde?
+Laboratorios Bell, hoy AT&T
+
+Ejemplo. Hola mundo
+
+hola_mundo.c
+
+include <stdio.h>
+int main(){
+	printf("Hola mundo");
+	return 0;
+}
+
